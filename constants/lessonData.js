@@ -717,7 +717,7 @@ const lessonsData = [
   },
   {
     title: 'Lesson 11\nGitHub Pages',
-    icon: 'BsGitCommit',
+    icon: 'BiGitCommit',
     description: 'Learn how to create and deploy a website using GitHub Pages.',
     longDescription:
       'In this lesson, we will explore GitHub Pages, a feature that allows you to create and host a static website directly from your GitHub repository. We will cover creating a GitHub Pages site, customizing it with themes, adding content, and setting up custom domains and HTTPS.',
