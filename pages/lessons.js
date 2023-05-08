@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 import styles from '../styles/Lessons.module.css';
 import AnimatedSection from './components/AnimatedSection';
-import lessonsData from './lessons/lessonData';
+import lessonsData from '../constants/lessonData';
 import ParticlesBackground from './components/ParticlesBackground';
 
 export default function Lessons() {
