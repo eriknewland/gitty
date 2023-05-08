@@ -134,7 +134,8 @@ export default function Layout({ children }) {
                           />
                           <a
                             className={`custom-link hover:text-gray-200 transition-colors duration-500 ${styles['custom-link']}`}
-                            href="#"
+                            href="https://github.com/eriknewland/gitty"
+                            target="blank"
                             onClick={toggleDropdown}
                             style={{ textDecoration: 'none' }}
                           >
