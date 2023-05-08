@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { monokaiSublime } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+// import { monokaiSublime } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { AiOutlineCopy } from 'react-icons/ai';
+import monokaiSublime from '../helpers/syntax-highlighter-styles';
 
 export default function CodeRenderer({
   // eslint-disable-next-line no-unused-vars
