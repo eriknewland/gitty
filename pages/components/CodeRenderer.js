@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import { Light as SyntaxHighlighter } from 'react-syntax-highlighter';
-// import { monokaiSublime } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
+import { monokaiSublime } from 'react-syntax-highlighter/dist/cjs/styles/hljs';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { AiOutlineCopy } from 'react-icons/ai';
-import monokaiSublime from '../../constants/syntax-highlighter-styles';
+import yaml from 'react-syntax-highlighter/dist/cjs/languages/hljs/yaml';
+import bash from 'react-syntax-highlighter/dist/cjs/languages/hljs/bash';
+SyntaxHighlighter.registerLanguage('yaml', yaml);
+SyntaxHighlighter.registerLanguage('bash', bash);
 
 export default function CodeRenderer({
   // eslint-disable-next-line no-unused-vars
