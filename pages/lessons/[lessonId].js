@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
 import { useRouter } from 'next/router';
-import lessonsData from './lessonData';
+import lessonsData from '../../constants/lessonData';
 import getIconByName from '../helpers/getIconByName';
 import Head from 'next/head';
 import ReactMarkdown from 'react-markdown';
